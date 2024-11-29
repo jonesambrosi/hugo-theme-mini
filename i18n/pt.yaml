@@ -1,0 +1,49 @@
+home:
+  other: Inicial
+
+archive:
+  other: Arquivo
+
+tags:
+  other: Tags
+
+subscribe:
+  other: Incrição
+  
+about:
+  other: Sobre
+
+404title:
+  other: 404 - Não encontrado
+
+404subtitle:
+  other: 'Página solicitada não existe.'
+
+readMore:
+  other: Leia mais
+
+minuteRead:
+  other: "{{ .ReadingTime }} de leitura"
+
+publishDate:
+  other: '{{ .PublishDate.Format "2 Jan 2006" }}'
+
+publishDateFull:
+  other: '{{ .PublishDate.Format "2 Jan 2006" }}'
+
+wordCount:
+  one: "{{ .WordCount }} paravra"
+  other: "{{ .WordCount }} paravras"
+
+postsNewer:
+  other: Novas publicações
+
+postsOlder:
+  other: Publicações antigas
+
+poweredBy:
+  other: >-
+    Cognola
+
+publishDateShort:
+  other: '{{ .PublishDate.Format "2 Jan" }}'
